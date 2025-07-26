@@ -39,3 +39,26 @@
 
 # debug information files
 *.dwo
+# Arduino build files
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+
+# Arduino backup and temp files
+*.bak
+*.tmp
+*.d
+*.dmp
+*.orig
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Arduino sketchbook/libraries (optional)
+libraries/
+build/
+.vscode/
